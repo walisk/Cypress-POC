@@ -1,0 +1,16 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cy:open": "node_modules\\.bin\\cypress open",
+    "cy:run": "node_modules\\.bin\\cypress run --spec 'cypress\\integration\\1-getting-started\\todo.spec.js'"
+  },
+  "author": "wali sk",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^9.1.0"
+  }
+}
