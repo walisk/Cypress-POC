@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "cy:open": "node_modules\\.bin\\cypress open",
-    "cy:run": "node_modules\\.bin\\cypress run --spec cypress\\integration\\1-getting-started\\todo.spec.js"
+    "cy:run": "node_modules\\.bin\\cypress run --"
   },
   "author": "wali sk",
   "license": "ISC",
