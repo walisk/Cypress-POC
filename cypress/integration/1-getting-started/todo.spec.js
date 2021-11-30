@@ -22,5 +22,6 @@ describe('Google Search', () => {
 
   it('Open google search', () => {
     cy.visit('/');
+    cy.title().should('include', 'Google')
   })
 })
